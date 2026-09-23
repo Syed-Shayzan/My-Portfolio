@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/user.png">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- heading -->
+    <h1 class="heading">My Portfolio</h1><hr><br>
+
+    <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-content nav-link"href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-content nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-content nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-content nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-content nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+    <!-- Main Content -->
+    <!-- name and animation -->
+    <div class="container row-cols-12">
+        <div class="title">
+            <div class="name">
+                <h2 class="greet">السلام علیکم, &nbsp;&nbsp;<img src="assets/waving hand.png" alt="Hand" width="60" height="60" /></h2>
+                <h1 class="syed"data-aos="fade-up">Syed</h1>
+                <span><h1 class="shayzan" data-aos="fade-up" data-aos-duration="3000">Shayzan, </h1></span>&nbsp;&nbsp;
+                <h1 id="here" class="greet" data-aos="fade-left">here !</h1>
+                <h4 class="web">Web Developer</h4>
+            </div>
+            <div class="animation d-none d-lg-block">
+                <div id="animate">
+                    <iframe id="robot" src="https://lottie.host/embed/63dee1c8-83b8-407f-9d39-700de86fcf26/RsqegqG6uk.lottie"></iframe>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- about -->
+        <br><br>
+        <h2 class="about" id="about" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="250" data-aos-offset="0">About</h2>
+            <div class="card about-card" data-aos="zoom-out">
+                <div class="card-body">
+                    <p class="card-text about-card-text">Hello ! &nbsp;&nbsp; I am  Syed Shayzan <br><br>
+                        A Computer Science Graduate with a passion for software development and web technology<br><br>
+                        Learning DSA in Java combined with web development using HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB (MERN Stalk)<br><br>
+                        Wether building end-to-end applications or experimenting with developer tools, AI integration and constructing practical solutions<br><br>
+                        I enjoy building new web projects, solving problems and adapting to new technologies, this curiosity pushes me to improve every day.<br><br>
+                        Open to software development internships, Entry-level roles and collaborations to contribute to real-world projects.<br><br>
+                        Let's connect !</p>
+                </div>
+            </div>
+
+            <!-- skills -->
+        <br><hr><div class="skills" id="skills">
+            <h2 class="" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">Technical Skills</h2>
+            <ul>
+                <li data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">Languages :</li>
+                <br><p><button data-aos="flip-left" class="skills-btn"><i class="fa-brands fa-java icons"></i><br>Java</button> &nbsp;
+                    <button data-aos="flip-up" class="skills-btn"><i class="fa-brands fa-square-js icons"></i><br>JavaScript</button></p><br>
+                <li data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">Web Development :</li>
+                <br><p>
+                    <button data-aos="flip-left" class="skills-btn"><i class="fa-brands fa-html5 icons"></i><br>HTML5</button>
+                    &nbsp; <button data-aos="flip-down" class="skills-btn"><i class="fa-brands fa-css3-alt icons"></i><br>CSS3</button>
+                    &nbsp; <button data-aos="flip-left" class="skills-btn"><i class="fa-brands fa-react icons"></i><br>React.js</button>
+                    &nbsp; <button data-aos="flip-up" class="skills-btn"><i class="fa-brands fa-node icons"></i><br>Node.js</button>
+                    &nbsp; <button data-aos="flip-right" class="skills-btn"><i class="fa-solid fa-e icons express" style="margin:-10px;"></i><i class="fa-solid fa-x icons express"></i><br>Express.js</button>
+                </p><br>
+                <li data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">Databases :</li>
+                <br><p>&nbsp; <button data-aos="flip-down" class="skills-btn"><i class="fa-brands fa-envira icons"></i><br>MongoDB</button>
+                        &nbsp; <button data-aos="flip-left" class="skills-btn"><i class="fa-solid fa-database icons"></i><br>SQL</button></p><br>
+                <li data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">Version Control And Tools :</li>
+                <br><p><button data-aos="flip-up" class="skills-btn"><i class="fa-brands fa-git-alt icons"></i><br>Git</button>
+                    &nbsp; <button data-aos="flip-left" class="skills-btn"><i class="fa-brands fa-github icons"></i><br>GitHub</button>
+                    &nbsp; <button data-aos="flip-down" class="skills-btn"><i class="fa-brands fa-bootstrap icons"></i><br>Bootstrap</button></p><br>
+            </ul>
+        </div><br>
+
+        <!-- projects -->
+        <hr><br><br><br><h2 id="projects" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">Projects</h2>
+        <div class="projects">
+            <div class="card project-cards" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="card-body">
+                    <img src="assets/spotify.png" class="card-image project-image">
+                    <h5 class="card-title">Spotify Static Page</h5>
+                    <p class="card-text">A simple Spotify static web page clone using HTML and CSS. no JavaScript or Backend functionality,just a static-page design.</p>
+                    <div><a href="https://syed-shayzan.github.io/Spotify_clone-HTML-CSS" class="btn btns">Preview</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://github.com/Syed-Shayzan/Spotify_clone-HTML-CSS.git" class="btn btns">Source code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card project-cards" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="card-body">
+                    <img src="/assets/simon.png" class="card-image project-image">
+                    <h5 class="card-title">Simon Says Game</h5>
+                    <p class="card-text">An interactive memory game where players repeat an ever-growing sequence of colors,
+                        and game over interface if you forget the sequence.</p>
+                    <div><a href="https:syed-shayzan.github.io/Simon-Says-Game" class="btn btns">Preview</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://github.com/Syed-Shayzan/Simon-Says-Game.git" class="btn btns">Source code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card project-cards" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1500">
+                <div class="card-body">
+                    <img src="/assets/wanderLust.webp" class="card-image project-image">
+                    <h5 class="card-title">WanderLust</h5>
+                    <p class="card-text">A full-stack Airbnb style accommodation platform allowing users to browse, create, edit, map,
+                        and review travel property listings.</p>
+                    <div><a href="https://wanderlust-mj1m.onrender.com" class="btn btns">Preview</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://github.com/Syed-Shayzan/WanderLust.git" class="btn btns">Source code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- experience -->
+        <div class="experience">
+        </div><br>
+
+        <!-- education -->
+        <hr><div class="education" id="education">
+            <h2 class="" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">Education </h2>
+            <div class="universities">
+                <ul>
+                    <p>
+                        <h6 data-aos="fade-in">2023 - 2026</h6>
+                        <li data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back" data-aos-delay="200"
+                        data-aos-offset="0">Bachelor's of Science in Computer Science<br>
+                        - Guru Nanak First Grade College,<br> - Bidar</li>
+                    </p>
+                </ul>
+            </div>
+            <div class="universities">
+                <ul>
+                    <p>
+                        <h6 data-aos="fade-in">2021 - 2023</h6>
+                        <li data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back" data-aos-delay="200"
+                        data-aos-offset="0">Pre-University Course (XII), Science<br>
+                        - Wisdom PU College of Science,<br> - Bidar</li>
+                    </p>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer" id="contact">
+        <h4 style="text-decoration: underline;">Get in touch</h4>
+        <div class="socials">
+            <a href="https://instagram.com/syed_shayzan"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com/in/syed-shayzan"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Syed-Shayzan"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="email"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=syedshayzan7@gmail.com">Email : syedshayzan7@gmail.com</a></div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+</htm

@@ -1,0 +1,244 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:black;
+    color:white;
+    font-family: "Merriweather", serif;
+    font-size:medium;
+    font-weight:400;
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+    flex:1;
+}
+.container{
+    margin:4rem;
+}
+.heading{
+    text-align:center;
+    font-weight:800;
+    margin-top:1rem;
+}
+
+/* Nav Bar */
+.nav{
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:40rem;
+    height:2.5rem;
+    justify-content:space-around;
+    background-color:#161616;
+    border-radius:1rem;
+}
+.nav-content{
+    color:grey !important;
+    font-size:large;
+    opacity:0.7;
+    text-decoration: none;
+}
+.nav-content:hover{
+    color:white !important;
+    opacity:1;
+    cursor:pointer;
+}
+
+/* Footer */
+.footer{
+    height:16rem;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-top:1rem;
+    bottom: 0;
+    left: 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+.socials{
+    width:100%;
+}
+.socials a{
+    text-decoration: none;
+    color:white;
+    font-size:1.5rem;
+    margin:0.8rem;
+    opacity:0.5;
+}
+.socials a:hover{
+    opacity:1;
+}
+.email a{
+    text-decoration: none;
+    color:white;
+}
+
+/* Main Content */
+/* name */
+.title{
+    height:18rem;
+    width:100%;
+    display:flex;
+    align-items:center;
+    margin-bottom:8rem;
+}
+.name{
+    height:10rem;
+    width:60%;
+    margin-left:3rem;
+    display:flex;
+    flex-wrap:wrap;
+}
+.syed{
+    font-family: "Edu QLD Hand Cursive";
+    font-size:4rem;
+    width:100%;
+    margin:0;
+    display:flex;
+    align-items:start;
+    justify-content:start;
+}
+.shayzan{
+    font-family: "Edu QLD Hand Cursive";
+    font-size:4rem;
+    width:100%;
+    margin:0;
+    margin-left:6rem;
+    display:flex;
+    align-items:start;
+    justify-content:start;
+}
+@keyframes colorChange{
+    50% {color: white}
+    100% {color: #222222}
+}
+.greet{
+    margin-top:1.4rem;
+    animation: colorChange 3s infinite;
+}
+.greet{
+    font-family:"Gulzar, serif"
+}
+.web{
+    margin-top:4.5rem;
+    margin-right: 8rem;
+    opacity: 0.5;
+}
+.animation{
+    height:10rem;
+    width:40%;
+    margin-right:3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#animate{
+    background-color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#robot{
+    background-color:black;
+    width: 18rem;
+    height:18rem;
+}
+
+/* card */
+.about-card{
+    background-color:black;
+    color:white;
+    width:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.about{
+    text-align:center;
+}
+.about-card-text{
+    text-align:center;
+}
+
+.skills{
+    margin-top: 5rem;
+}
+.skills-btn{
+    height:6rem;
+    width:6rem;
+    border-radius:1rem;
+    border: 1px solid white;
+    background-color:black;
+    color:white;
+}
+.skills-btn:hover{
+    background-color:white;
+    color: black;
+    border-radius: 1px solid black;
+}
+.icons{
+    font-size: 2rem;
+}
+
+/* projects */
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+}
+.project-cards{
+    font-family: "Playfair Display", serif;
+    font-size:large;
+    margin:1rem;
+    height:25rem;
+    width:25rem;
+    background-color: #222222;
+    color:white;
+    border-radius: 1rem;
+}
+.project-cards:hover{
+    box-shadow: 4px 4px 1rem gray;
+    transition-timing-function: ease-in-out;
+    transition-duration:1s;
+    transition-delay:1s;
+}
+.project-image{
+    height:12rem;
+    width:23rem;
+    border-radius:0.5rem;
+    margin-bottom:1rem;
+}
+
+.btns{
+    height:2rem;
+    width:8rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: white;
+    color:black;
+    padding: 0.2rem 0.5rem 0 0.5rem;
+}
+.btns:hover{
+    height: 2.1rem;
+    background-color: white;
+    color:black;
+    cursor:pointer;
+}
+
+/* Education */
+.education{
+    margin-top: 4rem;
+}
+.universities{
+    height:8rem;
+    width:100%;
+    background-color: #222229;
+    border:1px solid black;
+    border-radius:1rem;
+    margin-top:1.5rem;
+}
